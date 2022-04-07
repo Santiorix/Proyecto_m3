@@ -15,13 +15,13 @@ El reto propuesto es crear un modelo de machine learning que prediga los precios
 6. **Estandarizar las features**: Para estandarizar las variables se ha utilizado el método de sklearn StandardScaler.
 7. **Dividir la BBDD**: Para diferenciar que parte del modelo es de entrenamiento, y que parte de test se ha utiliazado el método train_test_split, utilizando para entrenar el 80% del modelo
 8. **¿Cual es el modelo más acertado?**: Para probar distintos modelos y ver cual es el modelo que nos daba un valor de RMSE más bajo, se han probado los siguientes:
-**    +LinearRegression()
-**    +linear_model.Lasso()
-**    +ElasticNet()
-**    +Ridge()
-**    +SVR()
-**    +SGDRegressor()
-**    +**RandomForestRegressor()**
+    +LinearRegression()
+    +linear_model.Lasso()
+    +ElasticNet()
+    +Ridge()
+    +SVR()
+    +SGDRegressor()
+    +**RandomForestRegressor()**
 siendo este último el modelo que menos error daba, obteniendo como resultado del RMSE un 206€
 
 
